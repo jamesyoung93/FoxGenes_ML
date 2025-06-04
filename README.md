@@ -30,3 +30,31 @@ Journal: Journal of Proteome Research
 
 Provided protein fold-changes and p-values under N-starvation.
 
+Methods
+Data Gathering 
+Data from prior transcriptomic and proteomic experiments on Nostoc 7120 were gathered from the sources above. These data frames were joined based on gene names present in both datasets. This bioinformatic data was further joined with experimentally validated FOX genes from 3. The remaining genes were either marked as “unknown” (may or may not be a FOX gene) or “NotFOX”. Determination of “NotFOX” genes was made from a study of non-essential genes that are conserved across cyanobacteria in general (Tiruveedula, 2017 #449).  
+
+Data Cleaning and Feature Engineering
+Some genes were missing information from transcriptomic and proteomics data. This also lead to missing information that was derivative of these variables, such as fold change. These situations of missing data were handled by creating a binned representation of the data as well as filling in zeroes for the missing data in it’s original column. No genes were deleted from the dataset due to missing data. Once missing data was handled, new variables were created by transforming the structural information within the existing data.
+
+Feature Selection
+Models were built on both the complete feature set and a filtered version of the dataset the removed variables based on collinearity. 
+
+Model Building
+Models were built using a tidymodel workflow in the R language on South Dakota State University’s HPC resources.  
+
+Model Evaluation
+The 20 iterations of each model/feature set/optimization combination had their individual train and holdout set predictions saved as well as the feature importance in the final model of each iteration. These were used for feature ranking based on mean importance. 
+
+Type	Split	Ensemble	Logistic Regression	MARS	RF	RPART	XGB
+Test	0.7	0.80	0.74	0.75	0.80	0.72	0.78
+Test	0.8	0.80	0.74	0.75	0.80	0.70	0.79
+Test	0.9	0.82	0.72	0.77	0.82	0.76	0.82
+Train	0.7	0.99	0.77	0.82	1.00	0.88	1.00
+Train	0.8	0.99	0.77	0.81	1.00	0.84	1.00
+Train	0.9	0.99	0.76	0.82	1.00	0.84	1.00
+
+
+
+
+
