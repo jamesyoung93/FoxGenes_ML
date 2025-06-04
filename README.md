@@ -74,15 +74,16 @@ Model performance on the test set increases as more data is allocated to the tra
 
 
 
-### Feature Importance (Logistic Regression, Top 5)
+### Feature Importance&nbsp;(Logistic Regression, Top 5)
 
-| Variable                                 | Estimate  | Std. Error | t value | `Pr(>|t|)` |
-|------------------------------------------|-----------|-----------:|--------:|-----------:|
+| Variable                                 | Estimate  | Std. Error | t value  | `Pr(>|t|)` |
+|------------------------------------------|-----------|-----------:|---------:|-----------:|
 | `21 Hour Time Point Unique gene reads`   | 3.88E-05  | 1.51E-06   | 25.65664 | 1.27E-142 |
 | `divergent_promoter_flag`                | 0.036585  | 0.002341   | 15.62603 | 1.10E-54  |
 | `fold_12_inf`                            | 0.175083  | 0.01319    | 13.27354 | 5.08E-40  |
 | `Chromosome region start`                | 1.26E-08  | 1.01E-09   | 12.53221 | 7.02E-36  |
-| `0 Hour Time Point Unique gene reads`    | –2.63E-05 | 2.85E-06   | –9.20381 | 3.82E-20 |
+| `0 Hour Time Point Unique gene reads`    | −2.63E-05 | 2.85E-06   | −9.20381 | 3.82E-20 |
+
 
 
 Predictive variables for FOX gene classification and their biological relevance:
