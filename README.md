@@ -76,7 +76,7 @@ Model performance on the test set increases as more data is allocated to the tra
 
 ### Feature Importance&nbsp;(Logistic Regression, Top 5)
 
-| Variable                                 | Estimate  | Std. Error | t value  | `Pr(>|t|)` |
+| Variable                                 | Estimate  | Std. Error | t value  | p_value |
 |------------------------------------------|-----------|-----------:|---------:|-----------:|
 | `21 Hour Time Point Unique gene reads`   | 3.88E-05  | 1.51E-06   | 25.65664 | 1.27E-142 |
 | `divergent_promoter_flag`                | 0.036585  | 0.002341   | 15.62603 | 1.10E-54  |
