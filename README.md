@@ -74,6 +74,8 @@ Model performance on the test set increases as more data is allocated to the tra
 
 ### Feature Importance (Logistic Regression, Top 5)
 
+Top Features
+
 | Variable                                 | Estimate  | Std. Error | t value   | Pr(>|t|)     |
 |------------------------------------------|-----------|------------|-----------|--------------|
 | `21 Hour Time Point Unique gene reads`   | 3.88E-05  | 1.51E-06   | 25.65664  | 1.27E-142    |
@@ -89,5 +91,7 @@ Predictive variables for FOX gene classification and their biological relevance.
 - **fold_12_inf**: A flag for transcription fold‐change being infinite at 12 h (i.e., undetected at 0 h but highly expressed at 12 h), highlighting late‐induced FOX candidates.  
 - **Chromosome region start**: Chromosomal position may reflect operon context or genomic clustering of FOX gene families.  
 - **0 Hour Time Point Unique gene reads**: Negative coefficient suggests true FOX genes are lowly expressed at baseline (0 h) before induction.
+
+---
 
 ```markdown
