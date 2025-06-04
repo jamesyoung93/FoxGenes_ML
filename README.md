@@ -1,5 +1,8 @@
 # FoxGenes_ML
 
+Interested in the cohort BLAST work? https://github.com/jamesyoung93/cyanobacteria-diazotrophic-proteome
+Interested in the app code? https://github.com/jamesyoung93/FoxGenesApp/tree/main
+
 ## Data Sources / References
 
 1. **Lechno-Yossef et al., 2011**  
