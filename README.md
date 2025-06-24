@@ -27,6 +27,10 @@ Interested in the app code? https://github.com/jamesyoung93/FoxGenesApp/tree/mai
 4. **Zhang et al., 2021**  
    *Title:* *Quantitative Proteomics Reveals the Protein Regulatory Network of Anabaena sp. PCC 7120 under Nitrogen Deficiency*  
    *Journal:* Journal of Proteome Research  
-   - Provided protein fold-changes and p-values under N-starvation.  
+   - Provided protein fold-changes and p-values under N-starvation.
+5. **Mitschke et al., 2011**
+     *Dynamics of transcriptional start-site selection during nitrogen-stress-induced cell differentiation in Anabaena sp. PCC 7120*
+     *Journal:* PNAS
+   -  Key input for divergent transcriptional start sites
 
 
