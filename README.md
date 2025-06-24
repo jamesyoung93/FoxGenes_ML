@@ -9,7 +9,7 @@ Interested in the app code? https://github.com/jamesyoung93/FoxGenesApp/tree/mai
 1. **Lechno-Yossef et al., 2011**  
    *Title:* *Identification of ten Anabaena sp. genes that under aerobic conditions are required for growth on dinitrogen but not for growth on fixed nitrogen*  
    *Journal:* Journal of Bacteriology  
-   - Supplementary Table of this work provides about 75 experimentally validated FOX genes.  
+   - Supplementary Table of this work provides additional experimentally validated FOX genes making up the bulk of our positive FOX gene labels.  
    - Established ~10 additional FOX genes via insertional mutagenesis.  
 
 2. **Tiruveedula & Wangikar, 2017**  
