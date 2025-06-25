@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-# predictFOXgenes.py  (optimized LogReg for preds; forced flag for coef table)
+
 
 import argparse, os, warnings, joblib
 import numpy as np, pandas as pd
