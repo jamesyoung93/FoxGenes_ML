@@ -1,0 +1,2 @@
+models_in_ensemble,method,folds,roc_auc_mean,roc_auc_std,avg_precision_mean,avg_precision_std,precision_at_20_mean,precision_at_20_std,precision_at_50_mean,precision_at_50_std,precision_at_100_mean,precision_at_100_std
+logreg+rf+xgb,mean,1,0.8007749207467417,,0.48912572448127034,,0.8,,0.56,,0.37,

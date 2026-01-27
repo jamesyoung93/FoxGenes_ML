@@ -1,0 +1,16 @@
+feature_set,model,fold,roc_auc,avg_precision
+principled_expression_no_position,logreg,1,0.8100940975192472,0.4848576271382886
+principled_expression_no_position,logreg,2,0.7112917023096664,0.27678995849146054
+principled_expression_no_position,logreg,3,0.7934131736526946,0.5126789511657932
+principled_expression_no_position,logreg,4,0.7093505297098112,0.327803240526508
+principled_expression_no_position,logreg,5,0.7623215108245049,0.20763810796711957
+principled_expression_no_position,rf,1,0.8143712574850298,0.44875051146983636
+principled_expression_no_position,rf,2,0.7745936698032505,0.3302331681268895
+principled_expression_no_position,rf,3,0.869546621043627,0.687578437978972
+principled_expression_no_position,rf,4,0.8295716259788116,0.5616618770174039
+principled_expression_no_position,rf,5,0.8281897742975588,0.44663646143951485
+principled_expression_no_position,xgb,1,0.7989734816082121,0.43751128436503645
+principled_expression_no_position,xgb,2,0.7305389221556886,0.3480250056278976
+principled_expression_no_position,xgb,3,0.8147989734816082,0.575873653373303
+principled_expression_no_position,xgb,4,0.839705204974666,0.5342513263301857
+principled_expression_no_position,xgb,5,0.7508060801473976,0.3615351649817803

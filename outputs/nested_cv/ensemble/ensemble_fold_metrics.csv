@@ -1,0 +1,2 @@
+fold,n,roc_auc,avg_precision,precision_at_20,precision_at_50,precision_at_100
+0,903,0.8007749207467417,0.48912572448127034,0.8,0.56,0.37

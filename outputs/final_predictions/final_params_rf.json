@@ -1,0 +1,7 @@
+{
+  "clf__max_depth": 12,
+  "clf__max_features": "sqrt",
+  "clf__min_samples_leaf": 1,
+  "clf__min_samples_split": 4,
+  "clf__n_estimators": 610
+}
