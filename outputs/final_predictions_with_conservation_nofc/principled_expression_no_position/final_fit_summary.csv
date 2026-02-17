@@ -1,0 +1,5 @@
+model,feature_set,n_labeled,n_unknown,scale_pos_weight_used_for_xgb,tuning_cv_avg_precision,train_roc_auc,train_avg_precision,train_precision_at_20,train_precision_at_50,train_precision_at_100
+logreg,principled_expression_no_position,903,4162,,0.3748151085834356,0.8948925678055654,0.4754618776904707,0.65,0.58,0.43
+rf,principled_expression_no_position,903,4162,,0.5224294244552411,0.9862275449101796,0.8322486251778827,0.95,0.8,0.64
+xgb,principled_expression_no_position,903,4162,12.279411764705882,0.532163175665203,0.9825818950334625,0.8282316195984427,0.9,0.84,0.61
+ensemble,principled_expression_no_position,903,4162,,,0.9813842902430433,0.8390940786336357,1.0,0.8,0.59
