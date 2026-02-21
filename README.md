@@ -1,8 +1,5 @@
-# FoxGenes_ML
 
-Machine learning pipeline for predicting FOX (Functioning under OXic conditions) gene candidates in *Anabaena* sp. PCC 7120.
-
-**Associated Publication:** Young, J., Gu, L. & Zhou, R. "Predicting FOX gene candidates for oxic nitrogen fixation using multi-omic machine learning and comparative bioinformatics." *Nature Scientific Reports* (submitted).
+**Associated Publication:** Young, J., Gu, L. & Zhou, R. "Predicting FOX gene candidates for oxic nitrogen fixation using multi-omic machine learning and comparative bioinformatics." *Scientific Reports* (submitted).
 
 ## Setup
 
